@@ -14,7 +14,9 @@ public class DateVariables {
      */
 
     public static void main(String[] args) {
+
         int month, day, year; // declares 3 int variables
+
     /*
         Above is the same as doing it in 3 lines
         int month;
