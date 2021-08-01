@@ -19,5 +19,7 @@ public class BooleanExamples {
         System.out.println("isWeekend = " + isWeekend);
         System.out.println("isWeekday = " + isWeekday);
 
+        // soutv -> prints variables quickly
+
     }
 }
