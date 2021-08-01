@@ -10,7 +10,9 @@ public class MyName {
         char letterThree = 'i';
         char letterFour = 'm';
 
-       // System.out.println(letterOne + letterTwo + letterThree + letterFour);
+        System.out.println("My name: " + letterOne + letterTwo + letterThree + letterFour);
+        System.out.println(letterOne + letterTwo + letterThree + letterFour + " is my name");
+
         System.out.print(letterOne);
         System.out.print(letterTwo);
         System.out.print(letterThree);
@@ -25,7 +27,9 @@ public class MyName {
         char numThree = 105;
         char numFour = 109;
 
-        // System.out.println(letterOne + letterTwo + letterThree + letterFour);
+        System.out.println("My name " + letterOne + letterTwo + letterThree + letterFour);
+        // Above adds the number values together
+
         System.out.print(letterOne);
         System.out.print(letterTwo);
         System.out.print(letterThree);
