@@ -21,7 +21,29 @@ public class BasicCalculator {
         System.out.println(num1 + " / " + num2 + " = " + divResult);
         System.out.println(num1 + " % " + num2 + " = " + remainResult);
 
-        //
+        // approach 2
 
+        System.out.println("=================================");
+
+        System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
+        System.out.println(num1 + " - " + num2 + " = " + (num1 - num2));
+        System.out.println(num1 + " * " + num2 + " = " + (num1 * num2));
+        System.out.println(num1 + " / " + num2 + " = " + (num1 / num2 ));
+        System.out.println(num1 + " % " + num2 + " = " + (num1 % num2));
+
+
+        // concatenation
+
+        System.out.println();
+
+        System.out.println("java" + 5 + 4);
+        System.out.println("java" + (5 + 4));
+        System.out.println(1 + 2 + "java"); // 3java
+
+        char a = 'A';
+        char b = 'B';
+        System.out.println(a + b); // 131 -> addition
+        System.out.println("" + a + b); // AB
+        System.out.println(a + b + ""); // 131 -> addition
     }
 }
