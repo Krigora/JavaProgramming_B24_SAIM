@@ -31,6 +31,7 @@ Example output:
 
         balance -= 100;
         System.out.println("Gift card balance: " + balance);
+
     }
 
 
