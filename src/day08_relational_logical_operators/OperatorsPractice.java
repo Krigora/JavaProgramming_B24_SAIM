@@ -62,6 +62,7 @@ public class OperatorsPractice {
         System.out.println("R: " + R);
         System.out.println("W: " + W);
 
+        //come back 8:15 est
 
     }
 }
