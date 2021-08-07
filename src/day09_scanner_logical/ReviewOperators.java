@@ -32,7 +32,7 @@ public class ReviewOperators {
         System.out.println(i);
         System.out.println(b);
 
-        System.out.println(false == !true); // false == false
+        System.out.println(false == !true); // false == false -> true
         System.out.println(false != true);
     }
 }
