@@ -10,6 +10,6 @@ public class EligibleToVote {
         boolean isEligible = isUSCitizen && age >= 18 && !hasCriminalBackground;
 
         System.out.println(isEligible);
-
+        // come back 12:20 est
     }
 }
