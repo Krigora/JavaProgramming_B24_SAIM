@@ -2,7 +2,7 @@ package day09_scanner_logical;
 
 public class ReviewOperators {
     public static void main(String[] args) {
-
+        // come back at 11: 13 est
         double budget = 1000;
 
         budget -= 200;
