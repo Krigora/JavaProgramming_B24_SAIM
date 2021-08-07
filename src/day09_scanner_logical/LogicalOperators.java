@@ -23,8 +23,9 @@ public class LogicalOperators {
         System.out.println(i > min && i < max);
         System.out.println(i < min || i > max);
 
-        System.out.println(true || false && true);
+        System.out.println(true || false && true); // true || false
 
+        System.out.println((true || false) && true); // true && true
 
 
     }
