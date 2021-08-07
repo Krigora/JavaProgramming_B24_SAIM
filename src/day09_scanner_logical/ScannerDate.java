@@ -30,5 +30,7 @@ public class ScannerDate {
         System.out.println(month + "/" + day + "/" + year);
 
 
+        // come back at 3:20 est
+
     }
 }
