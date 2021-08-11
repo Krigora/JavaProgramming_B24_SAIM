@@ -22,7 +22,7 @@ public class GreaterNumber {
 
         int biggest = 0;
 
-        if(first >= second && first >= third && true){
+        if(first >= second && first >= third){
             biggest = first;
         }
 
