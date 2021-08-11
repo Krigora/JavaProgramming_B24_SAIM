@@ -16,7 +16,7 @@ public class GreaterNumber {
 
     public static void main(String[] args) {
 
-        int first = 20;
+        int first = 200;
         int second = 30;
         int third = 30;
 
