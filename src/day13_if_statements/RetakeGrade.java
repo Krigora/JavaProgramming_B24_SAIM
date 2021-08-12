@@ -25,12 +25,12 @@ Write a program that will give the grade after the retake. The program should re
 
         double finalGrade = 0;
 
-        if(attempt == 1){
-            finalGrade =  grade - (grade * 0.1); // 80 -> 80 * .1 = 80 - 8 => 72
-        } else if (attempt == 2){
-            finalGrade =  grade - (grade * 0.2);
-        } else if(attempt == 3){
-            finalGrade =  grade - (grade * 0.35);
+        if (attempt == 1) {
+            finalGrade = grade - (grade * 0.1); // 80 -> 80 * .1 = 80 - 8 => 72 | grade * 0.9
+        } else if (attempt == 2) {
+            finalGrade = grade - (grade * 0.2);
+        } else if (attempt == 3) {
+            finalGrade = grade - (grade * 0.35);
         }
 
         System.out.println("After attempt " + attempt + " your final grade is " + finalGrade + "%");
