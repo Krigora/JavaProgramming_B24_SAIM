@@ -18,7 +18,7 @@ public class OxygenLevel {
         > Above 60 - Start to head back
         > Above 50 - Be careful now you at at 50%
          */
-
+//  come back at 8:20 est
         Scanner input = new Scanner(System.in);
         //int oxygenLevel = 80;
         System.out.println("What is the oxygen level");
