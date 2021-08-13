@@ -12,7 +12,7 @@ public class CalculatorV2 {
         @
 
         / -> 2nd num = 0
-
+                                come back at 8:15 est
          */
 
         Scanner input = new Scanner(System.in);
@@ -27,17 +27,27 @@ public class CalculatorV2 {
 
         boolean isValidOperator = operator.equals("+") || operator.equals("-") || operator.equals("*") || operator.equals("/") || operator.equals("%");
 
+        double result = 0;
+
         if(isValidOperator){
 
-            // TODO: do calculation
-
-
+            if(operator.equals("+")){
+                result = numberOne + numberTwo;
+            } else if(operator.equals("-")){
+                result = numberOne - numberTwo;
+            } else if(operator.equals("*")){
+                result = numberOne * numberTwo;
+            } else if(operator.equals("/")){
+                result = numberOne / numberTwo;
+            } else if(operator.equals("%")){
+                result = numberOne % numberTwo;
+            }
 
         } else {
             System.out.println(operator + " is not a valid operator");
         }
 
-
+        System.out.println(numberOne + " " + operator + " " + numberTwo + " = " + result);
 
     }
 }
