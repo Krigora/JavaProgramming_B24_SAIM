@@ -37,7 +37,7 @@ public class CalculatorV2 {
                 result = numberOne - numberTwo;
             } else if(operator.equals("*")){
                 result = numberOne * numberTwo;
-            } else if(operator.equals("/")){
+            } else if(operator.equals("/") && numberTwo != 0 ){
                 result = numberOne / numberTwo;
             } else if(operator.equals("%")){
                 result = numberOne % numberTwo;
@@ -47,7 +47,10 @@ public class CalculatorV2 {
             System.out.println(operator + " is not a valid operator");
         }
 
-        System.out.println(numberOne + " " + operator + " " + numberTwo + " = " + result);
+        if(isValidOperator){
+            System.out.println(numberOne + " " + operator + " " + numberTwo + " = " + result);
+        }
+
 
     }
 }
