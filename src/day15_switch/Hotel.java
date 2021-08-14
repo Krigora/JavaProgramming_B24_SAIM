@@ -42,7 +42,7 @@ public class Hotel {
                 break;
             // When the value is 5 or 6 it runs the same code above
             default:
-                System.out.println("Party size is too big");
+                System.out.println("Party size invalid");
                 validPartySize = false;
         }
 
