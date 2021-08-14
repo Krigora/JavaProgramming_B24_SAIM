@@ -4,14 +4,14 @@ public class NestedExample {
 
     public static void main(String[] args) {
 
-        boolean b = false;
-        boolean c = true;
+        boolean b = true;
+        boolean c = false;
 
         if(b){
 
             System.out.println(1);
 
-            if(!b){
+            if(!b){  // !true -> false
                 System.out.println(3);
             } else {
                 System.out.println(2);
