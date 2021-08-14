@@ -40,6 +40,8 @@ public class Browsers {
             case "edge":
                 System.out.println("Edge is opening " + url);
                 break;
+            default:
+                System.out.println("Invalid browser");
         }
 
     }
