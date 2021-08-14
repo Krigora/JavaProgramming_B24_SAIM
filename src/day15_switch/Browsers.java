@@ -24,6 +24,8 @@ public class Browsers {
         String url = input.next();
 
         switch (browser){
+            case "Chrome":
+            case "CRHOME":
             case "chrome":
                 System.out.println("Opening " + url + " in chrome");
                 break;
