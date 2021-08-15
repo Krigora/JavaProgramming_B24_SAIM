@@ -19,7 +19,13 @@ public class TrafficLight {
         int number = input.nextInt();
         System.out.println( number % 2 == 0 ? "Even number" : "Odd number" );
 
+        System.out.println("Enter number one");
+        double numberOne = input.nextDouble();
+        System.out.println("Enter number two");
+        double numberTwo = input.nextDouble();
 
+        double max = numberOne > numberTwo ? numberOne : numberTwo;
+        System.out.println(max);
 
     }
 }
