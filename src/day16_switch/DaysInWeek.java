@@ -1,10 +1,13 @@
 package day16_switch;
 
+import java.util.Scanner;
+
 public class DaysInWeek {
 
     public static void main(String[] args) {
-
-        int day = 7;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter a day number from 1-7");
+        int day = input.nextInt();
 
         String dayInWords = "";
 
