@@ -2,7 +2,7 @@ package day16_switch;
 
 import java.util.Scanner;
 
-public class TrafficLight {
+public class TernaryPractice1 {
     public static void main(String[] args) {
 
         boolean isGreen = false;
