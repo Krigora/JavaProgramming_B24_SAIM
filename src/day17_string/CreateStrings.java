@@ -20,5 +20,32 @@ public class CreateStrings {
 
         String fourth = third;
 
+        /*
+
+           =======================================
+                        HEAP
+
+
+            -------------------------------------------------
+                        STRING POOL
+
+            first        ->      "java"         <-  third
+
+                                    ^
+                                    fourth
+
+
+            five       ->    "Java"
+
+            -------------------------------------------------
+
+            second        ->     [    "java"    ]
+
+            =======================================
+         */
+
+        String five = "Java";
+        five = five + " is fun";
+
     }
 }
