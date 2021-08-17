@@ -25,9 +25,13 @@ public class StringMethods {
 
         System.out.println(lastName); // BOND
 
-        String word = "Monday ";
+        String word = "Monday";
         int length = word.length();
-        System.out.println(length); // 7
+        System.out.println(length); // 6
+
+        String word2 = "Monday ";  // space is also a character
+        int length2 = word2.length();
+        System.out.println(length2); // 7
 
     }
 }
