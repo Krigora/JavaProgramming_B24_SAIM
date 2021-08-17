@@ -47,5 +47,9 @@ public class CreateStrings {
         String five = "Java";
         five = five + " is fun";
 
+        String six = "Java is fun";
+
+        System.out.println(five == six);
+
     }
 }
