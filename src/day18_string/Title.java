@@ -15,9 +15,9 @@ public class Title {
      */
     public static void main(String[] args) {
 
-        String name = "Mr Dr James Jr";
+        String name = "Dr Mr James Jr";
 
-        if(name.startsWith("Mr")) {
+        if(name.startsWith("Mr") || name.startsWith("Mister")) {
             System.out.println("Hello Mr");
         } else if(name.startsWith("Mrs")){
             System.out.println("Hello Mrs");
