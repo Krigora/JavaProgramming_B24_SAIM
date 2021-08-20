@@ -37,7 +37,9 @@ public class Websites {
 
             if(!validStart) {
                 System.out.println("needs to begin with www.");
-            } else {
+            }
+
+            if(!validEnd){
                 System.out.println("needs to end with: .com\n.edu\n.gov\nor .net");
             }
 
