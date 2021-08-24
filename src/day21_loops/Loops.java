@@ -35,6 +35,11 @@ public class Loops {
 
         System.out.println(number3);
 
+        // 99 <= 100 -> true -> ran the code
+        // 100 <= 100 -> true -> ran the code
+        // 101 <= 100 -> false -> loop stops
+        // 102
+
 
     }
 }
