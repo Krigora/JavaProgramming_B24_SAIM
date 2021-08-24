@@ -6,7 +6,7 @@ public class Numbers {
 
         // go from 1 - 100 and print only even numbers
 
-        int number = 0;
+        int number = 1;
 
         while (number++ <= 100){
 
