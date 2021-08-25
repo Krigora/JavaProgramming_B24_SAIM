@@ -38,6 +38,7 @@ public class MiddleChar {
 
             char middle = word.charAt(word.length()/2);
             System.out.println(middle);
+            System.out.println(word.substring(word.length()/2, word.length()/2 + 1));
 
         } else {
 
@@ -46,6 +47,7 @@ public class MiddleChar {
 
             System.out.println("" + middleOne + middleTwo);
 
+            System.out.println(word.substring(word.length()/2 -1, word.length()/2 + 1));
         }
 
         /*
