@@ -11,10 +11,12 @@ public class MoveFirst {
         String remaining = str.substring(indexOfSpace).trim(); // str.substring(indexOfSpace + 1);
         String firstWord = str.substring(0, indexOfSpace);
 
-        remaining = remaining.substring(0,1).toUpperCase() + remaining.substring(1);
+        remaining = remaining.substring(0,1).toUpperCase() + remaining.substring(1); // CANT DO chatAt(0).toUpperCase()
         firstWord = firstWord.toLowerCase();
 
         System.out.println(remaining + " " + firstWord);
 
     }
 }
+
+// boolean.contains()
