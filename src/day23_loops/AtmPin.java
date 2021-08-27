@@ -9,15 +9,24 @@ public class AtmPin {
 
         int validPin = 1234;
         int userPin;
+        int attempts = 0;
 
         do{
 
             System.out.println("Enter your pin");
             userPin = input.nextInt();
+            attempts++;
 
-        }while (userPin != validPin);
+        }while (attempts < 3 && userPin != validPin);
 
-        System.out.println("Welcome, you are logged in");
+        if(userPin == validPin){
+            System.out.println("Welcome, you are logged in");
+        } else {
+            System.out.println("LOCKED OUT, TOO MANY ATTEMPTS");
+        }
+
+
+
 
 
     }
