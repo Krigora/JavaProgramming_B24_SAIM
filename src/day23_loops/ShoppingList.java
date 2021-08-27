@@ -24,10 +24,10 @@ public class ShoppingList {
             System.out.println("Do you want to add more? y or n");
             addMore = input.nextLine();
 
-        }while (addMore.equals("y"));
+        }while (addMore.equalsIgnoreCase("y") || addMore.equalsIgnoreCase("yes"));
 
         System.out.println("This is your whole shopping list:");
-        System.out.println(shoppingList.substring(0,shoppingList.length() - 2));
+        System.out.println(shoppingList.substring(0 , shoppingList.length() - 2));
 
     }
 }
