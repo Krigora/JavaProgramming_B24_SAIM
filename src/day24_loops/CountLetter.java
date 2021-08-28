@@ -19,7 +19,6 @@ public class CountLetter {
         System.out.println("a was found " + count + " times");
 
 
-
 //        String str = "abbaba";
 //        int count = 0;
 //
