@@ -27,5 +27,12 @@ public class CountWords {
 
         System.out.println("Number of words: " + (numberOfSpaces + 1));
 
+        // this is without loop:
+
+        int originalLength = str.length();
+        int newLength = str.replace(" ", "").length();
+        System.out.println("Number of words: " + (originalLength - newLength + 1));
+
+
     }
 }
