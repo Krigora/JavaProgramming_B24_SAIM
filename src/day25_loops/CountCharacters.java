@@ -25,7 +25,7 @@ public class CountCharacters {
         System.out.println("Please enter a String");
         String str = input.next();
 
-        for(int i = 0; i < str.length(); i++){
+        for(int i = 0; i < str.length(); i++){ //  i <= str.length() - 1
 
             char eachChar = str.charAt(i);
 
