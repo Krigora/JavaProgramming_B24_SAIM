@@ -34,5 +34,6 @@ If there is already a space in the String put an underscore
         System.out.println("Translated " + str + " to: ");
         System.out.println(spaceResult.trim());
 
+
     }
 }
