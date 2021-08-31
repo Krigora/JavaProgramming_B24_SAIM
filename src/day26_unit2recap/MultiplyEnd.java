@@ -35,7 +35,7 @@ Given a String and a number return a String that has the ending character duplic
         int repeat = input.nextInt();
 
         for (int i = 0; i < repeat; i++){
-            text += text.charAt( text.length() -1 );
+            text += text.charAt( text.length() - 1 );
         }
 
         System.out.println(text);
