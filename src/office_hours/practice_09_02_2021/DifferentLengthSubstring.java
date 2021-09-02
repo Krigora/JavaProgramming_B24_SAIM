@@ -22,7 +22,8 @@ public class DifferentLengthSubstring {
             }
 
         }
-
+        System.out.println(counterOne);
+        System.out.println(counterTwo);
         System.out.println(counterOne == counterTwo);
 
 
