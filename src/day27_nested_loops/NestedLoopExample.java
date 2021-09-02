@@ -17,7 +17,6 @@ public class NestedLoopExample {
             System.out.println("Hello universe\n");
         }
 
-
 //        for (int i = 0; i < 5; i++){
 //            System.out.println("Hello world");
 //        }
