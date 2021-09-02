@@ -16,6 +16,24 @@ public class MultiplicationTable {
 
         }
 
+        // manual way with copy paste and changing the number
+
+//        for(int j = 1; j <= 10; j++){
+//
+//            System.out.println(1 + " x " + j + " = " + (1 * j));
+//
+//        }
+//
+//        for(int j = 1; j <= 10; j++){
+//
+//            System.out.println(2 + " x " + j + " = " + (2 * j));
+//
+//        }
+//        for(int j = 1; j <= 10; j++){
+//
+//            System.out.println(3 + " x " + j + " = " + (3 * j));
+//
+//        }
 
 
     }
