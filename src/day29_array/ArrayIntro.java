@@ -1,5 +1,7 @@
 package day29_array;
 
+import java.util.Arrays;
+
 public class ArrayIntro {
     public static void main(String[] args) {
 
@@ -30,6 +32,9 @@ public class ArrayIntro {
         System.out.println(cities.length);
 
         // How can can be print the whole array at one time
+
+        System.out.println(cities); // this doesn't give us the values
+        System.out.println(Arrays.toString(cities));
 
     }
 }
