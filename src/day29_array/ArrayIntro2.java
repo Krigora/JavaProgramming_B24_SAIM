@@ -26,8 +26,8 @@ public class ArrayIntro2 {
         prices = new double[2];
         System.out.println(Arrays.toString(prices));
 
-        String s = "java";
-        s = "saturday";
+//        String s = "java";
+//        s = "saturday";
 
     }
 }
