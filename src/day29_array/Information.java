@@ -48,5 +48,6 @@ public class Information {
         studentThree[3] = input.next();
 
         System.out.println(Arrays.toString(studentThree));
+
     }
 }
