@@ -14,7 +14,7 @@ public class NumberArrays {
         System.out.println(ages[7]);
         System.out.println(ages[ages.length - 2]);
 
-        double [] scores = {90.3, 80.13, 40.50, 19.9, 100.0, 50};
+        double [] scores = {20.5, 40.5, 40.50, 19.9, 100.0, 50};
         System.out.println(scores.length);
         System.out.println(Arrays.toString(scores));
 
