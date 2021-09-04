@@ -15,7 +15,7 @@ public class Friends {
             friendList[i] = input.next();
         }
 
-        System.out.println(Arrays.toString(friendList));
+        System.out.println("Whole friends list " + Arrays.toString(friendList));
 
     }
 }
