@@ -10,7 +10,7 @@ public class AverageNumber {
         System.out.println("How many numbers do you want to enter");
         int size = input.nextInt();
 
-        int [] nums = new int[size];
+        int [] nums = new int[size]; // int [] nums = new int[input.nextInt()];
 
         for(int i = 0; i < size; i++ ) { // i < nums.length
             System.out.println("Enter number " + (i + 1));
