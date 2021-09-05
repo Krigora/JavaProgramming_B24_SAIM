@@ -1,6 +1,7 @@
 package day30_array;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class EvenAndOdd {
 
@@ -22,13 +23,29 @@ public class EvenAndOdd {
 
     public static void main(String[] args) {
 
-        int [] numbers = {9, 24, 5, 1, 5, 29, 52};
+//        int [] numbers = {9, 24, 5, 1, 5, 29, 52};
+
+        // Here we create a dynamic array with Scanner input
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("How many numbers do you want to enter?");
+        int size = input.nextInt();
+
+        int [] numbers = new int[size];
+        for(int i = 0; i < numbers.length; i++){
+            System.out.println("Enter a number");
+            numbers[i] = input.nextInt();
+        }
+
+        // counter variables
         int even = 0;
         int odd = 0;
 
+        // String variables to be able to print all the even and odd numbers later
         String evenNumbers = "";
         String oddNumbers = "";
 
+        // For each loop approach to find the even and odd
         for(int eachNum : numbers){
 
             if(eachNum % 2 == 0){
@@ -41,6 +58,8 @@ public class EvenAndOdd {
 
         }
 
+        // traditional for loop approach to find even and odd
+
 //        for(int i = 0; i < numbers.length; i++){
 //
 //            if(numbers[i] % 2 == 0){
@@ -52,6 +71,8 @@ public class EvenAndOdd {
 //            }
 //
 //        }
+
+        // printing
 
         System.out.println(Arrays.toString(numbers));
         System.out.println("Even: " + even);
