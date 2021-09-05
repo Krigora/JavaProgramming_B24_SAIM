@@ -18,6 +18,17 @@ public class FirstAndLastCountry {
             System.out.println();
         }
 
+        // for each loop
+
+        for(String each : countries){
+            each = each.toUpperCase();
+            System.out.println("Name of Country: " + each);
+            System.out.println("First letter is: " + each.charAt(0));
+            System.out.println("Last letter is: " + each.charAt(each.length() - 1));
+
+            System.out.println();
+        }
+
 
     }
 }
