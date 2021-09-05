@@ -29,17 +29,29 @@ public class EvenAndOdd {
         String evenNumbers = "";
         String oddNumbers = "";
 
-        for(int i = 0; i < numbers.length; i++){
+        for(int eachNum : numbers){
 
-            if(numbers[i] % 2 == 0){
+            if(eachNum % 2 == 0){
                 even++;
-                evenNumbers += numbers[i] + " ";
+                evenNumbers += eachNum + " ";
             } else {
                 odd++;
-                oddNumbers += numbers[i] + " ";
+                oddNumbers += eachNum + " ";
             }
 
         }
+
+//        for(int i = 0; i < numbers.length; i++){
+//
+//            if(numbers[i] % 2 == 0){
+//                even++;
+//                evenNumbers += numbers[i] + " ";
+//            } else {
+//                odd++;
+//                oddNumbers += numbers[i] + " ";
+//            }
+//
+//        }
 
         System.out.println(Arrays.toString(numbers));
         System.out.println("Even: " + even);
