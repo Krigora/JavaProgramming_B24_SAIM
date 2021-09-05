@@ -45,11 +45,22 @@ public class BankAccount {
         System.out.println("Enter your account type");
         bankAccountThree[3] = input.next();
 
+
+        // Dynamic scanner input with arrays
+
+        String [] bankAccountFour = new String[4];
+        String [] questions = {"first name", "account number", "balance", "account type"};
+
+        for(int i = 0; i < bankAccountFour.length; i++){
+            System.out.println("Enter your " + questions[i]);
+            bankAccountFour[i] = input.next();
+        }
+
         // Print all arrays
         System.out.println("First account: " + Arrays.toString(bankAccountOne));
         System.out.println("Second account: " + Arrays.toString(bankAccountTwo));
         System.out.println("Third account: " + Arrays.toString(bankAccountThree));
-
+        System.out.println("Fourth account: " + Arrays.toString(bankAccountFour));
 
 
     }
