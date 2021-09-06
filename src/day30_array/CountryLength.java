@@ -24,6 +24,21 @@ public class CountryLength {
 
         }
 
+        for(int i = 0; i < countries.length; i++){
+
+            String each = countries[i];
+
+            if(each.length() < smallest.length()){
+                smallest = each;
+            }
+
+            if(each.length() > largest.length()){
+                largest = each;
+            }
+
+        }
+
+
         System.out.println("Smallest: " + smallest);
         System.out.println("Largest: " + largest);
 
