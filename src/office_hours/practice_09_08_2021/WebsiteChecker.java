@@ -1,5 +1,7 @@
 package office_hours.practice_09_08_2021;
 
+import java.util.Arrays;
+
 public class WebsiteChecker {
 
     public static void main(String[] args) {
@@ -54,6 +56,8 @@ public class WebsiteChecker {
         System.out.println(".edu: " + edu); // System.out.println(counter[2]);
         System.out.println("other: " + other);// System.out.println(counter[3]);
 
+
+        System.out.println(Arrays.toString(counter));
 
     }
 }
