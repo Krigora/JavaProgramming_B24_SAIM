@@ -4,7 +4,7 @@ public class StoreInformation {
     public static void main(String[] args) {
 
         String [] items = { "Shoes", "Jackets", "Gloves", "AirPod", "Ipod", "Backpack" };
-        double [] prices = { 89.99, 150.0, 9.99, 250.0, 439.5, 39.99 };
+        double [] prices = { 89.99, 150.0, 999.99, 250.0, 439.5, 39.99 };
         int [] itemIds = { 12345, 12346, 12347, 12348, 12349, 12350 };
 
         // Find out if the store has jackets
@@ -31,6 +31,27 @@ public class StoreInformation {
             System.out.println(itemIds[i] + " | " + items[i] + " | $" + prices[i]);
         }
 
+
+        System.out.println();
+
+        // Find the information of the most expensive item
+
+        double maxPrice = prices[0];
+        int indexOfMax = 0;
+
+        for(int i = 0; i < prices.length; i++){
+
+            if(prices[i] > maxPrice){
+                maxPrice = prices[i];
+                indexOfMax = i;
+            }
+
+        }
+
+        System.out.println("The most expensive item:");
+        System.out.println("Item id: " + itemIds[indexOfMax]);
+        System.out.println("Name: " + items[indexOfMax]);
+        System.out.println("Price: " + prices[indexOfMax]);
 
     }
 }
