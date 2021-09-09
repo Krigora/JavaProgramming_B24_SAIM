@@ -9,7 +9,7 @@ public class CharArrays {
 
         // how to convert a String to a char array
 
-        String s = "java";
+        String s = "java is fun";
 
         char [] java = s.toCharArray();
 
