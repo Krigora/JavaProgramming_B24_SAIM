@@ -13,6 +13,21 @@ public class MaxNumberFrom2D {
                 {10, 200, 40}
         };
 
+        int max = nums[0][0];
+
+        for (int [] eachArray : nums ){
+
+            for(int eachNumber : eachArray ){
+
+                if(eachNumber > max){
+                    max = eachNumber;
+                }
+            }
+
+        }
+
+        System.out.println("Max: " + max);
+
 
 
     }
