@@ -25,6 +25,7 @@ public class GetCharacters {
         for(int i = 'A'; i <= 'Z'; i++){
             System.out.print( (char)i + " ");
         }
+        System.out.println();
     }
 
     // Print all the lowercase letter from a to z
@@ -33,6 +34,7 @@ public class GetCharacters {
         for(int i = 'a'; i <= 'z'; i++){
             System.out.print( (char)i + " ");
         }
+        System.out.println();
     }
 
     // Print all the number digits from 0 to 9
@@ -41,6 +43,7 @@ public class GetCharacters {
         for(int i = '0'; i <= '9'; i++){
             System.out.print( (char)i + " ");
         }
+        System.out.println();
     }
 
     // Print all the uppercase letters from Z to A
@@ -49,6 +52,7 @@ public class GetCharacters {
         for(int i = 'Z'; i >= 'A'; i--){
             System.out.print( (char)i + " ");
         }
+        System.out.println();
     }
 
     // Print all the lowercase letters from z to a
@@ -57,6 +61,7 @@ public class GetCharacters {
         for(int i = 'z'; i >= 'a'; i--){
             System.out.print( (char)i + " ");
         }
+        System.out.println();
     }
 
 
