@@ -30,7 +30,7 @@ public class AverageMulti {
 
         }
 
-        System.out.println("Total average:" + (total/totalNumbers));
+        System.out.println("Total average: " + (total/totalNumbers));
 
     }
 }
