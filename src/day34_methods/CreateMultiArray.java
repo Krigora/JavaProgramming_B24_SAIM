@@ -10,7 +10,6 @@ public class CreateMultiArray {
 
         String [][] allWords = new String[3][];
 
-
         // today is sunday
 
         System.out.println("Enter multiple words seperated by a space");
