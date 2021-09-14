@@ -14,7 +14,8 @@ public class ArrayMethods {
 
     public static void main(String[] args) {
 
-        int [] a = { 50, 4, 100, 90, 32};
+        int [] a = { 50, 4, 100, 90, 32, 4100};
+        //            0  1 , 2,  3,  4,   5
 
         getFirstArrayElement(a);
         getLastArrayElement(a);
