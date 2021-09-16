@@ -20,7 +20,6 @@ public class SwitchWithMethod {
         return word;
     }
 
-
     public static String numberToWord(int a){
         switch (a){
             case 0: return "Zero";
@@ -37,4 +36,20 @@ public class SwitchWithMethod {
             default: return "out of range";
         }
     }
+
+
+    public static int method(){
+        for (int i = 0 ; i < 5; i++ ){
+
+            if(i == 2){
+                return 0;
+            }
+
+            System.out.println(i);
+        }
+
+        return  -1;
+    }
+
+
 }
