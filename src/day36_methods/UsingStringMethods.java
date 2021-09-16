@@ -21,5 +21,11 @@ public class UsingStringMethods {
         System.out.println("Enter some words to reverse");
         System.out.println(StringUtil.reverse(input.nextLine()));
 
+        System.out.println("Enter your first name");
+        System.out.println(StringUtil.fixCaseFormat(input.next()));
+
+        System.out.println("Enter your last name");
+        System.out.println(StringUtil.fixCaseFormat(input.next()));
+
     }
 }
