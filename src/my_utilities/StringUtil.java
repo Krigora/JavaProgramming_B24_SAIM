@@ -32,4 +32,21 @@ public class StringUtil {
     }
 
 
+    /*
+        This method will count how many times a certain letter is in the given String
+        returns the counter value
+     */
+
+    public static int frequencyOfLetter(String word, char letter){
+        int counter = 0;
+
+        for(int i = 0; i < word.length(); i++){
+            if(word.charAt(i) == letter){
+                counter++;
+            }
+        }
+
+        return counter;
+    }
+
 }
