@@ -11,5 +11,8 @@ public class UsingArrayCLass {
         System.out.println(ArraysUtil.maxNumber(a));
 
 
+        System.out.println(ArraysUtil.contains(a, 5));
+        System.out.println(ArraysUtil.contains(a, 50));
+
     }
 }
