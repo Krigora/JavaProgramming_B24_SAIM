@@ -55,10 +55,13 @@ public class StringUtil {
 
         for(int i = 0; i < str.length(); i++){
 
-            int count = frequencyOfLetter(str, str.charAt(i));
+            if(!allDuplicate.contains("" + str.charAt(i))) {
 
-            if(count > 1){
-                allDuplicate += str.charAt(i);
+                int count = frequencyOfLetter(str, str.charAt(i));
+
+                if (count > 1) {
+                    allDuplicate += str.charAt(i);
+                }
             }
 
         }
@@ -66,7 +69,6 @@ public class StringUtil {
         return allDuplicate;
 
     }
-
 
 
 }
