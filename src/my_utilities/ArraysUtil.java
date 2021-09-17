@@ -32,4 +32,17 @@ public class ArraysUtil {
         return max;
     }
 
+    public static boolean contains(int [] arr, int num){
+
+        for(int each : arr){
+            if(each == num){
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+
+
 }
