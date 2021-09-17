@@ -49,4 +49,24 @@ public class StringUtil {
         return counter;
     }
 
+    public static String getDuplicateCharacters(String str){ // java
+
+        String allDuplicate = "";
+
+        for(int i = 0; i < str.length(); i++){
+
+            int count = frequencyOfLetter(str, str.charAt(i));
+
+            if(count > 1){
+                allDuplicate += str.charAt(i);
+            }
+
+        }
+
+        return allDuplicate;
+
+    }
+
+
+
 }
