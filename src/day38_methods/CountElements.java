@@ -19,10 +19,12 @@ public class CountElements {
 
     public static void main(String[] args) {
 
-        int [] arr =  {1, 2, 5, 1, 5, 1};
+        int [] arr =  {1, 2, 5, 1, 5, 1, 3};
         System.out.println(frequencyOfElement(arr, 1));
         System.out.println(frequencyOfElement(arr, 5));
         System.out.println(frequencyOfElement(arr, 4));
+
+        getUniqueElements(arr);
 
     }
 
@@ -37,6 +39,25 @@ public class CountElements {
         }
 
         return counter;
+    }
+
+    /*
+        Given a int array, find and print all of the unique elements
+     */
+
+    public static void getUniqueElements(int [] nums){
+
+        for(int each : nums){
+
+            int counter = frequencyOfElement(nums, each);
+
+            if(counter == 1){
+                System.out.println(each);
+            }
+
+        }
+
+
     }
 
 
