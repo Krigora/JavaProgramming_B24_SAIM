@@ -43,6 +43,28 @@ public class ArraysUtil {
         return false;
     }
 
+    public static int sumOfElements(int [] arr){
 
+        int sum = 0;
+
+        for(int num : arr){
+            sum += num;
+        }
+
+        return sum;
+    }
+
+    public static int [] addElement(int [] arr, int element){
+
+        int [] newArr = new int[arr.length + 1];
+
+        for(int i = 0; i < arr.length; i++){
+            newArr[i] = arr[i];
+        }
+
+        newArr[newArr.length - 1] = element;
+
+        return newArr;
+    }
 
 }
