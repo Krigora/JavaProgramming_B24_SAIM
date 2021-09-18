@@ -67,6 +67,29 @@ public class ArraysUtil {
         return newArr;
     }
 
+    /*
+
+        {1, 2, 3}, {4, 5}
+
+        [ 1, 2, 3, 4, 5 ]
+     */
+
+    public static int [] addElement(int [] arr, int [] elementsToAdd){
+
+        int [] newArr = new int[arr.length + elementsToAdd.length];
+        int index = 0;
+
+        for(int each : arr){
+            newArr[index++] = each;
+        }
+
+        for(int each : elementsToAdd){
+            newArr[index++] = each;
+        }
+
+        return newArr;
+    }
+
     public static int frequencyOfElement(int [] nums, int element){
 
         int counter = 0;
