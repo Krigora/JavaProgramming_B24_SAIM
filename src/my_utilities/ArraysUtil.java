@@ -67,4 +67,35 @@ public class ArraysUtil {
         return newArr;
     }
 
+    public static int frequencyOfElement(int [] nums, int element){
+
+        int counter = 0;
+
+        for(int each : nums){
+            if(each == element){
+                counter++;
+            }
+        }
+
+        return counter;
+    }
+
+    /*
+        Given a int array, find and print all of the unique elements
+     */
+
+    public static void getUniqueElements(int [] nums){
+
+        for(int each : nums){
+
+            int counter = frequencyOfElement(nums, each);
+
+            if(counter == 1){
+                System.out.println(each);
+            }
+
+        }
+
+    }
+
 }
