@@ -15,6 +15,15 @@ public class IndexOfMethod {
 
      */
 
+    public static void main(String[] args) {
+
+        String [] arr = {"a", "b", "c"};
+        int index =  indexOf(arr, "b");
+        System.out.println(index);
+
+        System.out.println(indexOf(arr, "A"));
+    }
+
     public static int indexOf(int [] nums, int element){
 
         for(int i = 0; i < nums.length; i++){
@@ -26,6 +35,15 @@ public class IndexOfMethod {
         return -1;
     }
 
+    public static int indexOf(String [] arr, String element){
 
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i].equals(element)){
+                return i;
+            }
+        }
+
+        return -1;
+    }
 
 }
