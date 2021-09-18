@@ -98,4 +98,30 @@ public class ArraysUtil {
 
     }
 
+    public static int indexOf(int [] nums, int element){
+
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] == element){
+                return i;
+            }
+        }
+
+        return -1;
+    }
+
+    public static int indexOf(String [] arr, String element){
+
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i].equals(element)){
+                return i;
+            }
+        }
+
+        return -1;
+    }
+
+
+
+
+
 }
