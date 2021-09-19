@@ -25,12 +25,18 @@ public class WrapperExample1 {
 
         short s = 100;
         Short s2 = new Short((short)200);
-        Short s3 = 300;
+        Short s3 = 300; // this is the Short wrapper class
 
         System.out.println(s);
         System.out.println(s2);
         System.out.println(s3);
 
+        long l = 1000L;
+        Long l2 = new Long(2000L);
+        Long l3 = 3000L;
+
+        Float f1 = new Float(4.5F);
+        Float f2 = 4.7f;
 
     }
 }
