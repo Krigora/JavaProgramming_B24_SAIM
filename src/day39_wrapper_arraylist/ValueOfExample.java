@@ -6,5 +6,7 @@ public class ValueOfExample {
         String s = "50";
         Integer i = Integer.valueOf(s);
         int i2 = Integer.valueOf(s); // unboxing
+        System.out.println(i);
+        System.out.println(i2);
     }
 }
