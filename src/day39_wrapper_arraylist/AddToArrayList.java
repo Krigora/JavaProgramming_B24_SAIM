@@ -22,5 +22,14 @@ public class AddToArrayList {
 
         System.out.println(numbers);
 
+        // find the length of array: arr.length
+
+        System.out.println(numbers.size());
+
+        // reading first element from array: arr[0]
+
+        System.out.println("First element " + numbers.get(0));
+        System.out.println("Last element " + numbers.get(numbers.size() - 1));
+
     }
 }
