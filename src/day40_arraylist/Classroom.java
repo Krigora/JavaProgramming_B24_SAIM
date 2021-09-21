@@ -40,7 +40,5 @@ public class Classroom {
 
         System.out.println(groupThree);
 
-
-
     }
 }
