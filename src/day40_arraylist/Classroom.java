@@ -23,8 +23,23 @@ public class Classroom {
 
         System.out.println("First element, first char: " + groupOne.get(0).charAt(0));
 
+        System.out.println();
+        // capacity example
         ArrayList<String> groupTwo = new ArrayList<>(20);
         System.out.println(groupTwo.size());
+
+        System.out.println();
+
+        ArrayList<String> groupThree = new ArrayList<>();
+        groupThree.add("Nisso");   // [ Nisso ]
+        groupThree.add(0, "Omer"); // [ Omer, Nisso ]
+        groupThree.add("Kamila"); // [ Omer, Nisso, Kamila ]
+        groupThree.add(0, "Bogdan"); // [  Bogdan, Omer, Nisso, Kamila ]
+        groupThree.add(1, "James"); // [  Bogdan, James, Omer, Nisso, Kamila ]
+
+
+        System.out.println(groupThree);
+
 
 
     }
