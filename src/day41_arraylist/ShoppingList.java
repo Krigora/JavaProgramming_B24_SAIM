@@ -50,6 +50,7 @@ public class ShoppingList {
 
         }
 
+        System.out.println("This is your shopping list:" + list);
         System.out.println("Size after removing items: " + list.size());
 
     }
