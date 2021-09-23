@@ -25,11 +25,16 @@ public class Caffeine {
 
     public static void main(String[] args) {
 
+
+        // This is all the defined information to work with
+
         String [] allDrinks = {"coffee", "tea", "monster", "red bull", "coke", "pepsi", "bang", "apple juice"};
 
-        ArrayList<String> drinkList = new ArrayList<>( Arrays.asList(allDrinks) );
+        ArrayList<String> drinkList = new ArrayList<>( Arrays.asList(allDrinks) );  // we converted the Array to Arraylist to make an ArrayList with values right away
 
-        ArrayList<Integer> caffeineAmounts = new ArrayList<>();
+        ArrayList<Integer> caffeineAmounts = new ArrayList<>(); // making an empty ArrayList use later
+
+        // The for each loop goes through every drink element and puts the caffeine amount into the other ArrayList
 
         for(String eachDrink : drinkList){
 
@@ -56,12 +61,30 @@ public class Caffeine {
                     break;
             }
 
-            caffeineAmounts.add(caffeineNum);
+            caffeineAmounts.add(caffeineNum);  // actual adding of the caffeine number to the ArrayList
 
         }
 
-        System.out.println(drinkList);
-        System.out.println(caffeineAmounts);
+//        System.out.println(drinkList);
+//        System.out.println(caffeineAmounts);
+
+
+        // printing the drinks and caffeine amounts together
+
+        System.out.println("========= Caffeine Table  =========");
+
+        for (int i = 0; i < drinkList.size(); i++){
+
+            System.out.println("Drink: " + drinkList.get(i));
+            System.out.println("Caffeine amount: " + caffeineAmounts.get(i));
+            System.out.println();
+
+        }
+
+        System.out.println("========= Finished =========");
+
+
+
 
     }
 
