@@ -15,6 +15,18 @@ public class AllPeople {
         personOne.sex = 'M';
         personOne.isMarried = false;
 
+        // this will not print us anything useful, for now
+        System.out.println(personOne);
+
+        // Q: How to print each field?
+        // A: in order to access each instance variable we need to use the reference
+        System.out.println("Name: " + personOne.name);
+        System.out.println("Age: " + personOne.age);
+        System.out.println("Hair color: " + personOne.hairColor);
+        System.out.println("Sex: " + personOne.sex);
+        System.out.println("Married: " + (personOne.isMarried ? "Yes" : "No"));
+
+       // System.out.println(Person.name); name cannot be accessed because it is not being used with an object
 
     }
 
