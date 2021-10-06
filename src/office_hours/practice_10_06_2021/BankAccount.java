@@ -32,4 +32,13 @@ public class BankAccount {
         return balance;
     }
 
+    @Override
+    public String toString() {
+        return "BankAccount{" +
+                "fullName='" + fullName + '\'' +
+                ", balance=" + balance +
+                ", accountNumber=" + accountNumber +
+                ", accountType='" + accountType + '\'' +
+                '}';
+    }
 }
