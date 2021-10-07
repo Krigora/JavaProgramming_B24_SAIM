@@ -9,10 +9,10 @@ public class Address {
     String country;
 
     public Address(String street, String city, String state, String zipcode){
-        street = street;
-        city = city;
-        state = state;
-        zipcode = zipcode;
+        this.street = street;
+        this.city = city;
+        this.state = state;
+        this.zipcode = zipcode;
         country = "US";
     }
 
