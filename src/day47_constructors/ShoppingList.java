@@ -1,5 +1,6 @@
 package day47_constructors;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ShoppingList {
@@ -14,6 +15,7 @@ public class ShoppingList {
         System.out.println(firstItem);
 
         String keepGoing = "yes";
+        ArrayList<Item> shoppingList = new ArrayList<>();
 
         while (keepGoing.equalsIgnoreCase("yes")){
 
@@ -27,7 +29,7 @@ public class ShoppingList {
             double unitPrice = input.nextDouble();
 
             Item item = new Item(name, quantity, unitPrice);
-            System.out.println(item);
+            shoppingList.add(item);
 
             System.out.println("Do you want to keep adding Items?");
             input.nextLine(); // empty enter input
@@ -35,6 +37,9 @@ public class ShoppingList {
             keepGoing = input.nextLine();
 
         }
+
+        System.out.println("\nShopping List:");
+        System.out.println(shoppingList);
 
 
 
