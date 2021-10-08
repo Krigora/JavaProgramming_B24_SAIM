@@ -22,6 +22,10 @@ public class Item {
         totalPrice = quantity * unitPrice;
     }
 
+    public String toString(){
+        return "ITEM: " + name + " | Quantity: " + quantity + " | Total Price: " + totalPrice;
+    }
+
 }
 
 /*
