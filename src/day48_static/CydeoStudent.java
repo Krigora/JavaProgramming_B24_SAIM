@@ -6,6 +6,8 @@ public class CydeoStudent {
     int id;
     int groupNumber;
 
+    static Coffee myCoffee;
+
     static int batchNumber;
     static String [] instructors;
     static String schoolName;
@@ -20,6 +22,7 @@ public class CydeoStudent {
         batchNumber = 24;
         instructors = new String[]{"Nadir", "Saim", "Murodil"};
         schoolName = "Cydeo";
+        myCoffee = new Coffee("Starbucks", 10);
     }
 
     @Override

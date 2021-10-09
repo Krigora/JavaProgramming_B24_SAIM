@@ -15,5 +15,16 @@ public class Classroom {
 
         System.out.println(studentOne.name + " and " + studentTwo.name + " have the following instructors: " + Arrays.toString(CydeoStudent.instructors));
 
+        // check how much coffee all cydeo students have
+        System.out.println(CydeoStudent.myCoffee.amountLeft);
+
+        studentOne.myCoffee.drink(2);
+
+        System.out.println(CydeoStudent.myCoffee.amountLeft);
+
+        studentTwo.myCoffee.drink(3);
+
+        System.out.println(CydeoStudent.myCoffee.amountLeft);
+
     }
 }
