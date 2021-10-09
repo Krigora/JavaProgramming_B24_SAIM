@@ -31,4 +31,14 @@ public class MoreChaining {
 
     // its not possible to call itself
 
+/*    public MoreChaining(float f){
+        this(true);
+    }
+
+    public MoreChaining(boolean b){
+        this(4.5f);
+    }*/
+
+    // above is invalid because the float constructor called the boolean constructor, which calls the float constructor, etc
+
 }
