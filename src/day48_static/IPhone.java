@@ -26,6 +26,15 @@ public class IPhone {
         this.storage = storage;
     }
 
+    @Override
+    public String toString() {
+        return "IPhone{" +
+                "model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", price=" + price +
+                ", storage=" + storage +
+                '}';
+    }
 }
 
 /*
