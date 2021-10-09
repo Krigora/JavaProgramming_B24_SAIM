@@ -22,5 +22,12 @@ public class CydeoStudent {
         schoolName = "Cydeo";
     }
 
-
+    @Override
+    public String toString() {
+        return "CydeoStudent{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", groupNumber=" + groupNumber +
+                '}';
+    }
 }
