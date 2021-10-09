@@ -16,6 +16,11 @@ public class CydeoStudent {
         this.groupNumber = groupNumber;
     }
 
+    static {
+        batchNumber = 24;
+        instructors = new String[]{"Nadir", "Saim", "Murodil"};
+        schoolName = "Cydeo";
+    }
 
 
 }
