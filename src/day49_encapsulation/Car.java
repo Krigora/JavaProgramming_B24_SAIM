@@ -2,10 +2,10 @@ package day49_encapsulation;
 
 public class Car {
 
-    Driver driver;
+    Driver driver; // reference
 
     public Car(String name, String licenseNumber, int age){
-        driver = new Driver(name, licenseNumber, age);
+        driver = new Driver(name, licenseNumber, age); // create a new Driver object
     }
 
 
@@ -16,6 +16,8 @@ public class Car {
     String driver; // name, licnum, age
     String engine; // cylinder, horesepower
  */
+
+// separate class in the same file
 
 class Driver{
 
