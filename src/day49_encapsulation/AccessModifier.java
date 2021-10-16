@@ -12,5 +12,7 @@ public class AccessModifier {
         obj.b = 2;
         obj.c = 3;
 
+
+
     }
 }

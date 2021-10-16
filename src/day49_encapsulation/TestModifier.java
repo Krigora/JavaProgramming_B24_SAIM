@@ -7,5 +7,10 @@ public class TestModifier {
         obj.b = 2;
       //  obj.c = 3; c is private so we cannot access it outside of the class
 
+        Paper paper = new Paper();
+        paper.cut();
+        paper.fold();
+        //paper.write(); is private
+
     }
 }
