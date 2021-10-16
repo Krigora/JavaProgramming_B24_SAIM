@@ -2,6 +2,11 @@ package day49_encapsulation;
 
 public class Car {
 
+    Driver driver;
+
+    public Car(String name, String licenseNumber, int age){
+        driver = new Driver(name, licenseNumber, age);
+    }
 
 
 }
