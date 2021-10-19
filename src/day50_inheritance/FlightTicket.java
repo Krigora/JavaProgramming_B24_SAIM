@@ -6,7 +6,6 @@ public class FlightTicket {
     private String departureLocation;
     private String arrivalLocation;
 
-
     public FlightTicket(String type, String departureLocation, String arrivalLocation) {
         setType(type);
         this.departureLocation = departureLocation;
