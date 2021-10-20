@@ -48,8 +48,8 @@ public class ScrumTeam {
                 "productOwner='" + productOwner + '\'' +
                 ", scrumMaster='" + scrumMaster + '\'' +
                 ", sprintNumber=" + sprintNumber +
-                ", allDevelopers=" + allDevelopers +
-                ", allTesters=" + allTesters +
+                ", \nallDevelopers=" + allDevelopers +
+                ", \nallTesters=" + allTesters +
                 '}';
     }
 }
