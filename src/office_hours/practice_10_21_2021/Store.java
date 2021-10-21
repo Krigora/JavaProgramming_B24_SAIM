@@ -9,11 +9,12 @@ public class Store {
         System.out.println(bottle.getBrand());
         System.out.println(bottle.getOunces());
 
-        bottle.setOunces(20);
+        bottle.setOunces(-20);
 
         System.out.println(bottle.getOunces());
 
         bottle.setBrand(null);  // bottle.brand = null;
+        bottle.setBrand("");
 
         System.out.println(bottle.getBrand());
 
