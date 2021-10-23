@@ -14,7 +14,7 @@ public class Lab {
 
         Mac computerFour = new Mac(2000);
 
-
+        System.out.println(computerFour);
 
     }
 }

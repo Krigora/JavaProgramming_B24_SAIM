@@ -10,4 +10,9 @@ public class Computer {
         this.memory = memory;
     }
 
+    @Override
+    public String toString(){
+        return "OS: " + os + " Memory: " + memory;
+    }
+
 }
