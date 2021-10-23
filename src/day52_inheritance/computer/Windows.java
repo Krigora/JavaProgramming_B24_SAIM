@@ -6,6 +6,4 @@ public class Windows extends Computer {
         super("Windows", memory);
     }
 
-
-
 }
