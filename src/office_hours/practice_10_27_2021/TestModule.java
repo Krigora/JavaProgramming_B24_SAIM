@@ -11,6 +11,17 @@ public class TestModule {
         System.out.println(day1.files.get(0));
         day1.files.get(0).openFile();
 
+        /*
+
+            ArrayList<String> list
+            list.get(0).charAt(0)
+
+         */
+
+        day1.files.add(new File("pdf", 0.5));
+
+        System.out.println(day1.files);
+
 
 
     }

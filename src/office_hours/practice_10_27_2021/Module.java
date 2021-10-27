@@ -1,5 +1,7 @@
 package office_hours.practice_10_27_2021;
 
+import com.sun.org.apache.xpath.internal.operations.Mod;
+
 import java.util.ArrayList;
 
 public class Module {
@@ -8,6 +10,11 @@ public class Module {
 
     public Module(){
         this.files = new ArrayList<>();
+    }
+
+    public Module(ArrayList<File> files){
+        this();
+        this.files.addAll(files);
     }
 
 }
@@ -19,7 +26,8 @@ instance variables:
 - files (ArrayList of File objects)
 
 constructor:
-- no parameter -> create empty ArrayList object - initialize with given ArrayList of Files
+- no parameter -> create empty ArrayList object
+- initialize with given ArrayList of Files
 -> Use chaining
 methods:
 - toString: print all the quiz information
