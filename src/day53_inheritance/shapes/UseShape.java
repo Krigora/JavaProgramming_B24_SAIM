@@ -15,5 +15,10 @@ public class UseShape {
         System.out.println(square.area());
         System.out.println(square.perimeter());
 
+        Circle circle = new Circle(3.5);
+        System.out.println(circle.name);
+        System.out.println(circle.area());
+        System.out.println(circle.perimeter());
+
     }
 }
