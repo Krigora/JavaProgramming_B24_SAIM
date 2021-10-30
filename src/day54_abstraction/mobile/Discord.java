@@ -16,5 +16,4 @@ public class Discord extends MobileApp{
 
     // Override the useApp method to again call the super version - that will show us how many minutes the app is used for AND call our new action of chat every time we use the app
 
-
 }
