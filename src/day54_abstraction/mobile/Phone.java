@@ -13,10 +13,20 @@ public class Phone {
 
         Instagram instagram = new Instagram();
         //instagram.name = "instagram";
-        instagram.setName("instagram");
+        instagram.setName("Instagram");
         instagram.setVersion(1.1);
         instagram.download();
         instagram.useApp(15);
+
+        System.out.println();
+
+        // creating a Discord class object and called instance methods for this class. Cannot directly access the name or version still, but we can indirectly via the getters and setters
+
+        Discord discord = new Discord();
+        discord.setName("Discord");
+        discord.setVersion(11.4);
+        discord.download();
+        discord.useApp(10);
 
 
     }
