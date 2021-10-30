@@ -12,3 +12,5 @@ public class Tesla extends ElectricCar{
         System.out.println("plugged in.. charging");
     }
 }
+
+
