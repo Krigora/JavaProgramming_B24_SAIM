@@ -5,6 +5,10 @@ public class MobileApp {
     private String name;
     private double version;
 
+    public void download(){
+        System.out.println("Downloading version " + version + " of " + name);
+    }
+
     public void useApp(int minutes){
         System.out.println("Using " + name + " for "  + minutes + " minutes");
     }
