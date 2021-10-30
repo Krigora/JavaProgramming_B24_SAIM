@@ -1,5 +1,7 @@
 package day54_abstraction.person;
 
+import day53_inheritance.rules.C;
+
 public class WorkPlace {
     public static void main(String[] args) {
 
@@ -15,6 +17,10 @@ public class WorkPlace {
         Developer developer = new Developer();
         developer.work();
         developer.sleep(20);
+
+        Chef chef = new Chef();
+        chef.work();
+        chef.sleep(60);
 
     }
 }
