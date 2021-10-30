@@ -9,6 +9,15 @@ public class Phone {
         app1.useApp(10);
         app1.download();
 
+        System.out.println();
+
+        Instagram instagram = new Instagram();
+        //instagram.name = "instagram";
+        instagram.setName("instagram");
+        instagram.setVersion(1.1);
+        instagram.download();
+        instagram.useApp(15);
+
 
     }
 }
