@@ -12,5 +12,9 @@ public class WorkPlace {
         tester.sleep(30);
         tester.jobTitle = "Tester";
 
+        Developer developer = new Developer();
+        developer.work();
+        developer.sleep(20);
+
     }
 }
