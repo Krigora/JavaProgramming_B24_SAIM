@@ -23,8 +23,6 @@ class Main {
         Parent.hello();
         Child.hello();
 
-        hello();
-
     }
 
 }
