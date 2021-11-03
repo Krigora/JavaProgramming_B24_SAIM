@@ -1,6 +1,6 @@
 package office_hours.practice_11_03_2021;
 
-public class NetflixShow extends Streaming{
+public final class NetflixShow extends Streaming{
 
     String showName;
     int episodeNumber;
