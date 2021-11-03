@@ -5,7 +5,7 @@ public class Streaming extends Entertainment {
     double duration;
 
     public Streaming(String company, double duration){
-        super("Streaming", company);
+        super("Streaming", company); // calls line 8 in the Entertainment class
         this.duration = duration;
     }
 
