@@ -13,3 +13,4 @@ public class Running extends Exercise{
     }
 
 }
+
