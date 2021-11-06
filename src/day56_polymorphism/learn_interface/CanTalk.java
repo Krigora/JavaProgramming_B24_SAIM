@@ -13,5 +13,4 @@ public interface CanTalk {
         System.out.println("Whispering shh");
     }
 
-
 }
