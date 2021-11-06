@@ -24,7 +24,6 @@ class Wild {
         obj2.eat();
         obj3.eat();
 
-
     }
 
 
