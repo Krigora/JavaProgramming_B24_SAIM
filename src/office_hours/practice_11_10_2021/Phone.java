@@ -7,6 +7,13 @@ public abstract class Phone {
     double price;
     int size;
 
+    public Phone(String brand, String model, double price, int size){
+        this.brand = brand;
+        this.model = model;
+        this.price = price;
+        this.size = size;
+    }
+
     public abstract void calling();
     public abstract void texting();
 
@@ -29,10 +36,6 @@ Create an interface named AndroidApps that can inherit from downloadable
     interface variable: AppStoreName
     abstract method(): insertMemoryCard();
 
-
-
-Create a class named iPhone that will be the sub class of Phone. Also implement the AppleApps interface
-    implement all abstract methods
 
 Create a class named Samsung that will be the sub class of Phone. Also implement the AndroidApps interface
     implement all abstract methods
