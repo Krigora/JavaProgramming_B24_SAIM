@@ -24,16 +24,12 @@ Create an abstract class called Phone
     abstract methods: calling(), texting()
     instance method: toString()
 
-Create an interface named downloadable:
-    abstract method: download()
 
 Create an interface named AndroidApps that can inherit from downloadable
     interface variable: AppStoreName
     abstract method(): insertMemoryCard();
 
-Create an interface named AppleApps that can inherit from downloadable
-    Interface variable: AppStoreName
-    abstract method(): facetime();
+
 
 Create a class named iPhone that will be the sub class of Phone. Also implement the AppleApps interface
     implement all abstract methods
