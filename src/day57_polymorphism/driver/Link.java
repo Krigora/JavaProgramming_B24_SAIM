@@ -2,6 +2,10 @@ package day57_polymorphism.driver;
 
 public class Link implements WebElement{
 
+    public String getUrl(){
+        return "google.com";
+    }
+
     @Override
     public void sendKeys(String txt) {
         System.out.println("Not valid");
