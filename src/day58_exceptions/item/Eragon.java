@@ -11,5 +11,8 @@ public class Eragon extends Book{
         System.out.println("Reading Eragon");
     }
 
+    public void sell(){
+        System.out.println("Selling Eragon books");
+    }
 
 }
