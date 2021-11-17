@@ -1,5 +1,7 @@
 package office_hours.practice_11_17_2021;
 
+import java.util.ArrayList;
+
 public class Store {
     public static void main(String[] args) {
 
@@ -41,7 +43,20 @@ public class Store {
         ((Jacket)jacket3).wear();
         jacket3.putOnHood();
 
+        buy(jacket1);
+        buy(jacket2);
+        buy((Jacket)jacket3);
 
+        ArrayList<Clothes> list = new ArrayList<>();
+        list.add(shirt1);
+        list.add(shirt2);
+        list.add((Jacket)shirt3);
+        list.add(jacket1);
+        list.add(jacket2);
+
+        for(Clothes each : list){
+            each.wear();
+        }
 
 
     }
