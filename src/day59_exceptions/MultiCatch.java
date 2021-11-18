@@ -19,6 +19,7 @@ public class MultiCatch {
 
         /*
 
+        possible polymorphic references for an exception, that is why you can catch with multiple catches
         ArithmeticException obj = new ArithmeticException();
 
         RunTimeException obj = new ArithmeticException();
@@ -26,6 +27,7 @@ public class MultiCatch {
         Exception obj = new ArithmeticException();
 
          */
+
 
     }
 
