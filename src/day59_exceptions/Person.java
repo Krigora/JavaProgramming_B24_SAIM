@@ -9,7 +9,12 @@ public class Person {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name) { // null
+
+        if(name == null || name.isEmpty()) {
+            throw new IllegalArgumentException();
+        }
+
         this.name = name;
     }
 
@@ -17,7 +22,12 @@ public class Person {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(int age) throws Exception{
+
+        if(age < 0 || age > 150){
+            throw new Exception();
+        }
+
         this.age = age;
     }
 }
