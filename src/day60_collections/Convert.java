@@ -1,9 +1,6 @@
 package day60_collections;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class Convert {
     public static void main(String[] args) {
@@ -23,7 +20,12 @@ public class Convert {
         obj.add("hello");
         obj.add("%");
         System.out.println("Original: " + obj);
-        System.out.println("New: " + new ArrayList<>(obj));
+
+        List<String> newList = new ArrayList<>(obj);
+        newList.add("hello");
+        newList.get(0);
+
+        System.out.println("New: " + newList);
 
     }
 }
