@@ -1,7 +1,5 @@
 package day60_collections;
 
-import day53_inheritance.rules.A;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
