@@ -7,7 +7,7 @@ public class Bank {
     public void withdraw(double money){
 
         if(balance <= 0){
-            throw new IllegalArgumentException();
+            throw new NotEnoughMoneyException();
         } else if(money > balance){
             throw new IllegalArgumentException();
         }
