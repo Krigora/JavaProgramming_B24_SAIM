@@ -6,13 +6,14 @@ public class Bank {
 
     public void withdraw(double money){
 
-        if(money > balance){
+        if(balance <= 0){
             throw new IllegalArgumentException();
-        } else if(balance < 0){
+        } else if(money > balance){
             throw new IllegalArgumentException();
         }
 
         System.out.println("Withdrawing $" + money);
+        balance -= money;
 
     }
 
