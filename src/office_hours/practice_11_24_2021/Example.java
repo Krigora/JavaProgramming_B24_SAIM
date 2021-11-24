@@ -1,8 +1,17 @@
 package office_hours.practice_11_24_2021;
 
+import day54_abstraction.hiding.Run;
+
 public class Example {
 
     public static void main(String[] args) throws InterruptedException{
+
+        int minutes = 50;
+
+        if(minutes > 45) {
+            throw new BirdException(minutes);
+        }
+
 
         Thread.sleep(2000);
 
@@ -14,10 +23,14 @@ public class Example {
         } catch (StringIndexOutOfBoundsException e) {
             System.out.println("String exception caught");
             System.out.println(e.getMessage());
+            throw new RuntimeException("Failing on purpose");
         } catch (IndexOutOfBoundsException e){
             System.out.println("Parent catches");
             System.out.println(e.getMessage());
             e.printStackTrace();
+        } finally {
+            // this block will execute no matter what, if an exception happens or not
+            System.out.println("THE END");
         }
 
 
