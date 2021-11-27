@@ -21,9 +21,10 @@ public class Store {
         String item = input.next();
 
         if(inventory.containsKey(item)){
-
             System.out.println("That item is in stock");
             System.out.println(item + " costs " + inventory.get(item));
+        } else {
+            System.out.println(item + " not in stock");
         }
 
 
