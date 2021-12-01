@@ -27,6 +27,17 @@ public class FacebookUser extends SocialMedia{
         allPost = new ArrayList<>();
     }
 
+    public FacebookUser(String username, String password, String fullName){
+        this(username, password);
+        setFullName(fullName);
+    }
+
+    public FacebookUser(String username, String password, String fullName, int age, int numberOfFriends){
+        this(username, password, fullName);
+        setAge(age);
+        setNumberOfFriends(numberOfFriends);
+    }
+
     @Override
     public void directMessage(String username, String message) {
 
@@ -80,6 +91,14 @@ public class FacebookUser extends SocialMedia{
         }
 
         this.fullName = isValidName ? fullName : "No Name";
+
+        /*
+            if(isValidName){
+                this.fullName = fullName;
+            } else {
+                this.fullName = "No Name;
+            }
+         */
     }
 
     public int getAge() {
@@ -87,7 +106,11 @@ public class FacebookUser extends SocialMedia{
     }
 
     public void setAge(int age) {
-        this.age = age;
+        if(age >= 13 && age < 130){
+            this.age = age;
+        } else {
+            System.out.println("This is invalid age");
+        }
     }
 
     public int getNumberOfFriends() {
@@ -95,7 +118,11 @@ public class FacebookUser extends SocialMedia{
     }
 
     public void setNumberOfFriends(int numberOfFriends) {
-        this.numberOfFriends = numberOfFriends;
+        if(numberOfFriends >= 0 && numberOfFriends <= 5000){
+            this.numberOfFriends = numberOfFriends;
+        } else {
+            System.out.println("Invalid number of friends");
+        }
     }
 
     public List<Post> getAllPost() {
