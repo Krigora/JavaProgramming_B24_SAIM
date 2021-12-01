@@ -39,13 +39,13 @@ public class FacebookUser extends SocialMedia{
     }
 
     @Override
-    public void directMessage(String username, String message) {
-
+    public void directMessage(SocialMedia receiver, String message) {
+        System.out.println("Sending message to: " + ((FacebookUser)receiver).getFullName());
     }
 
     @Override
     public void post(String body) {
-
+        allPost.add(new Post(body));
     }
 
     @Override
