@@ -132,6 +132,19 @@ public class FacebookUser extends SocialMedia{
     public void setAllPost(List<Post> allPost) {
         this.allPost = allPost;
     }
+
+    @Override
+    public String toString() {
+        return "FacebookUser{" +
+                " username='" + username + '\'' +
+                ", fullName='" + fullName + '\'' +
+                ", age=" + age +
+                ", numberOfFriends=" + numberOfFriends +
+                ", personalUrl='" + personalUrl + '\'' +
+                ", accountLength=" + accountLength +
+                ", \nAll Posts: " + allPost +
+                '}';
+    }
 }
 
 /*
