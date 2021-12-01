@@ -68,7 +68,18 @@ public class FacebookUser extends SocialMedia{
     }
 
     public void setFullName(String fullName) {
-        this.fullName = fullName;
+
+        boolean isValidName = true;
+
+        for(int i = 0; i < fullName.length(); i++){
+            if(!Character.isLetter(fullName.charAt(i)) || fullName.charAt(i) != ' '){
+                System.out.println("Name is invalid");
+                isValidName = false;
+                break;
+            }
+        }
+
+        this.fullName = isValidName ? fullName : "No Name";
     }
 
     public int getAge() {
@@ -105,5 +116,10 @@ Facebook User
 - If the password contains the username then it is not a valid password and should not be saved. In this case Print “Password contained username. Default password created: ‘password’” and set the password for the user to the default value.
 - Create and assign the user's person url by using 'facebook.com/' and adding their username
 - Create an empty ArrayList of Posts
+
+• Overload the constructor to accept username, password, and the user’s name.
+- If the name entered has any characters that are not letters from the alphabet, then the name is invalid. In this case print “invalid name” and assign the name value to be ‘no name’
+• Overload the constructor to accept username, password, the user’s name, age and number of friends.
+- Only store the age and number of friends into the variables if they are valid numbers. The age cannot be a negative number and the number of friends cannot be negative or more than 5000. If they are invalid print “Invalid (age/number of friends) and keep the values as the default of 0.
 
  */
