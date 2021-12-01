@@ -41,6 +41,7 @@ public class FacebookUser extends SocialMedia{
     @Override
     public void directMessage(SocialMedia receiver, String message) {
         System.out.println("Sending message to: " + ((FacebookUser)receiver).getFullName());
+        System.out.println("Message:  " + message);
     }
 
     @Override
@@ -83,7 +84,7 @@ public class FacebookUser extends SocialMedia{
         boolean isValidName = true;
 
         for(int i = 0; i < fullName.length(); i++){
-            if(!Character.isLetter(fullName.charAt(i)) || fullName.charAt(i) != ' '){
+            if(!Character.isLetter(fullName.charAt(i)) && fullName.charAt(i) != ' '){
                 System.out.println("Name is invalid");
                 isValidName = false;
                 break;

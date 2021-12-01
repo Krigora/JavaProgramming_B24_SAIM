@@ -25,6 +25,11 @@ public class Post {
         return dateTime;
     }
 
+    @Override
+    public String toString() {
+        return body +
+                "," + dateTime;
+    }
 }
 
 /*
